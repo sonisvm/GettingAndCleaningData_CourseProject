@@ -12,4 +12,5 @@ The script does the following:
 * Extract the mean and standard deviation measurements.
 * Form a tidy data set with the average of each measurement for each activity for each subject.
 * Write the tidy data into a file called tidy_data.txt in the working directory.
+
 Detailed description can be found under Transformation steps in the CodeBook.
