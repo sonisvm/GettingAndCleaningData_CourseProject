@@ -1,7 +1,7 @@
 # Getting And Cleaning Data - Course Project
 This repo contains the following:
 * run_analysis.R - Script file which converts raw data available at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones into tidy data.
-* CodeBook.md - CodeBook describing the measurements in the raw and tidy data, as well as the steps followed to transform the raw data.
+* CodeBook.md - CodeBook describing the measurements in the tidy data, as well as the steps followed to transform the raw data.
 ## Analysis Script - run_analysis.R
 The script does the following:
 * Download and unzip the files available at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
