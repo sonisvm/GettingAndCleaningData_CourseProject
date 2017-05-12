@@ -59,7 +59,7 @@ run_analysis <- function() {
         print("Writing Data into File...")
         
         #Write into file
-        write.table(tidy_data, "tidy_data.txt", row.names = FALSE, sep="\t\t\t\t")
+        write.table(tidy_data, "tidy_data.txt", row.names = FALSE)
         
         print("Analysis Completed.")
         
