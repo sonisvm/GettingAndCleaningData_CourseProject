@@ -63,13 +63,13 @@
          select(-activity_id)
       ```
     * The data set is grouped by subject_id and then by activity_name.
-    ```sh
-      group_by(subject_id, activity_name)
-    ```
+      ```sh
+         group_by(subject_id, activity_name)
+      ```
     * Each column is summarised by calculating the mean.
-    ```sh
-      summarize_each(c("mean"))
-    ```
+      ```sh
+         summarize_each(c("mean"))
+      ```
 * Create a file called tidy_data.txt if it does not exist.
 ```sh
    if(!file.exists("tidy_data.txt")){
